@@ -1,0 +1,146 @@
+.top_menu:nth-child(n+3) {
+  border-left: 1px solid #333333;
+  padding-left: 10px; }
+
+.bottom_menu {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.bottom_menu:nth-child(2) {
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333; }
+
+.border-bottom, tr.border-bottom td{
+  border-bottom: 1px solid green;
+}
+
+.border-right{
+  border-right: 1px solid green;
+}
+
+.border{
+  border-right: 1px solid green;
+}
+
+.encart-1{
+  background-color: #73923B;
+  padding: 1em;
+}
+
+.encart-2{
+  background-color: #8e9d10;
+  padding: 1em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.white{
+  background-color: white;
+}
+
+.green-dark{
+  background-color: #73923B;
+}
+
+.green-light{
+  background-color: #8e9d10;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 1em;
+}
+
+
+header a, nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "roboto";
+}
+
+header div, nav {
+  background-color: #f9f9f9; }
+
+.select-box:hover {
+  background-color: #73923B; }
+
+div[class^=col] > div[class^=col] {
+  margin-bottom: 10px; }
+
+#logo {
+  margin-left: 10px; }
+
+.container {
+  background-color: #f9f9f9; }
+
+.prez-img {
+  width: 100%; }
+
+.ingr-img {
+  width: 100%; }
+
+.label-img {
+  width: 20%;
+  float: right;
+  padding-left: 10px; }
+
+.margin-top {
+  margin-top: 50px; }
+
+.ingredients {
+  border-bottom: 1px outset white; }
+
+.price {
+  font-family: 'roboto';
+  font-weight: 100; }
+
+label {
+  font-family: 'roboto-thin';
+  font-weight: bolder; }
+
+.foot-sentence {
+  padding-top: 35px;
+  font-style: italic; }
+
+footer {
+  margin-bottom: 20px; }
+
+.margin-salade {
+  margin-bottom: 150px !important ;
+}
+
+
+  @media only screen and (min-width:500px) and (max-width:980px) {
+
+    .move{
+      float:none;
+      overflow: auto;
+      width: 98%;
+    }
+
+
+
+  }
+
+@media only screen and (max-width:500px) {
+      .body {
+          width : 100%;
+      }
+      .body > div {
+          margin : 0 1%;
+      }
+      .border-right{
+        border-right: none;
+      }
+      a {
+        display : inline-block;
+        text-align: center;
+      }
+}
+/*# sourceMappingURL=styles.css.map */

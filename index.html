@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Le bon Sandwich</title>
+	<!--Framework CSS-->
+	<link rel="stylesheet" type="text/css" href="frameworkCSS/css/main.css">
+	<!--Sandwich CSS-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+		<div class="row col-12 green-light">
+			<img src="assets/img/logo.png" alt="Logo le bon Sandwich" class="col-4" id="logo">
+			<a class="col-2 align-center border-right  " href="#">Le concept Bio</a>
+			<a class="col-2 align-center border-right" href="html/panier.html">Mon panier</a>
+			<a class="col-2 align-center" href="html/commandes.html">Mes commandes</a>
+		</div>
+	</header>
+	<nav class="row col-12 green-dark">
+		<a href="index.html" class="col-2 align-center border-right">Mon sandwich</a>
+		<a href="html/salade.html" class="col-2 align-center border-right">Salades</a>
+		<a href="html/crudite.html" class="col-2 align-center border-right">Crudités</a>
+		<a href="html/charcuterie.html" class="col-2 align-center border-right">Charcuteries</a>
+		<a href="html/viande.html" class="col-2 align-center border-right">Viande</a>
+		<a href="html/sauce.html" class="col-2 align-center">Sauces</a>
+	</nav>
+  <form method="post" action="#">
+    <section class="container col-12">
+        <div class="col-12 row white border">
+            <div class="col-4">
+                <img src="assets/img/sandwich.png" alt="Sandwich" class="prez-img">
+            </div>
+            <div class="col-8">
+                <h1>Mon sandwich</h1>
+                <p>Et est admodum mirum videre plebem innumeram mentibus ardore quodam infuso cum dimicationum curulium eventu pendentem. haec similiaque memorabile nihil vel serium agi Romae permittunt. ergo redeundum ad textum.</p><p>Quibus ita sceleste patratis Paulus cruore perfusus reversusque ad principis castra multos coopertos paene catenis adduxit in squalorem deiectos atque maestitiam, quorum adventu intendebantur eculei uncosque parabat carnifex et tormenta. et ex is proscripti sunt plures actique in exilium alii, non nullos gladii consumpsere poenales. nec enim quisquam facile meminit sub Constantio, ubi susurro tenus haec movebantur, quemquam absolutum.</p>
+            </div>
+        </div>
+        <div class="col-12 row border">
+            <div class="col-7 move">
+                <h2>Les types</h2>
+                <div class="col-6 encart-1">
+            			<div class="col-4 bold">0€50</div>
+            			<div class="col-8"><input type="radio" name="size" value="little"/>Petite faim</div>
+            		</div>
+            		<div class="col-6 encart-1">
+            			<div class="col-4 bold">1€00</div>
+            			<div class="col-8"><input type="radio" name="size" value="middle"/>Moyenne faim</div>
+            		</div>
+            		<div class="col-6 encart-1">
+            			<div class="col-4 bold">1€50</div>
+            			<div class="col-8"><input type="radio" name="size" value="big"/>Grosse faim</div>
+            		</div>
+            		<div class="col-6 encart-1">
+            			<div class="col-4 bold">2€00</div>
+            			<div class="col-8"><input type="radio" name="size" value="ogre"/>Ogre</div>
+            	  </div>
+            </div>
+            <div class="col-5 move">
+                <h2>Les types de pain</h2>
+                <div class="col-12 encart-2">
+                  <div class="col-4 bold">0€80</div>
+                  <div class="col-8"><input type="radio" name="type" value="white"/>Pain blanc</div>
+                </div>
+                <div class="col-12 encart-2">
+                  <div class="col-4 bold">1€00</div>
+                  <div class="col-8"><input type="radio" name="type" value="wholewheat"/>Pain complet</div>
+                </div>
+                <div class="col-12 encart-2">
+                  <div class="col-4 bold">1€00</div>
+                  <div class="col-8"><input type="radio" name="type" value="cereals"/>Pain aux céréales</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 row border">
+            <div class="col-12">
+                <h2>Les ingrédients</h2>
+                <div class="col-12 border-bottom">
+                  <div class="col-3 bold align-left">0€50*</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="salad" value="lettuce"/>Laitue</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="salad" value="arugula"/>Roquette</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="salad" value="chew"/>Mâche</div>
+                </div>
+                <div class="col-12 border-bottom">
+                  <div class="col-3 bold align-left">1€00*</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="rawfood" value="carot"/>Carotte</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="rawfood" value="concomber"/>Concombre</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="rawfood" value="tomato"/>Tomate</div>
+                </div>
+                <div class="col-12 border-bottom">
+                  <div class="col-3 bold align-left">1€50*</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="delimeats" value="lettuce"/>Jambon</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="delimeats" value="arugula"/>Jambon cru</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="delimeats" value="chew"/>Saucisson</div>
+                </div>
+                <div class="col-12 border-bottom">
+                  <div class="col-3 bold align-left">2€00*</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="meats" value="burger"/>Burger</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="meats" value="confit"/>Confit</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="meats" value="lamb"/>Agneau</div>
+                </div>
+                <div class="col-12">
+                  <div class="col-3 bold align-left">0€30*</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="sauce" value="vinaigrette"/>Vinaigrette</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="sauce" value="mustard"/>Moutarde</div>
+                  <div class="col-3 align-left"><input type="checkbox" name="sauce" value="bearnaise"/>Béarnaise</div>
+                </div>
+            </div>
+            <div class="col-12 align-center">
+                  <p>Prix total de mon sandwich : <span>4€60</span></p>
+                  <input type="submit" value="Ajouer mon sandwich au panier"/>
+            </div>
+        </div>
+    </section>
+  </form>
+    <footer class="container col-12">
+        <nav class="col-12 green-dark">
+            <div class="col-12 align-center green-dark">
+                <a  class="col-4 border-right" href="#">Où nous trouver</a>
+                <a  class="col-4 border-right" href="#">CGV</a>
+                <a  class="col-4" href="#">Mentions légales</a>
+            </div>
+        </nav>
+        <p class="col-14 align-center small foot-sentence">Pour votre santé, évitez de manger trop gras, trop sucré, trop salé. <a href="http://mangerbouger.fr">www.mangerbouger.fr</a></p>
+    </footer>
+</body>
+</html>
